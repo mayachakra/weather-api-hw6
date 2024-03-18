@@ -1,0 +1,88 @@
+h1{
+    font-family: "Alice", serif;
+    font-style: normal;
+}
+header{
+    font-family: "Alice", serif;
+    font-style: normal;
+    font-size: xx-large;  
+    text-align: center;
+    background: #bc4581;
+}
+body{
+    background: linear-gradient(#e664a5, #9198e5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+
+
+}
+.forecast-box{
+margin-bottom: 20px;
+background-color: #e664a5;
+border-radius: 5px;
+padding:15px;
+}
+.forecast-card{
+    margin-right: 10px;
+}
+.current-forecast{
+    position:center;
+    top:20px;
+    right:20px;
+    background-color: #e78ab8;
+
+}
+.container{
+    display:flex;
+}
+.search-side{
+    flex:1;
+}
+.search-results{
+    flex:1;
+}
+.search-input{
+    width:80%;
+    padding: 8px;
+    margin-right: 10px;
+}
+.btn{
+    padding:8px 16px;
+    background-color: #5952a4;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-top: 5px;
+    font-family: "Alice", serif;
+}
+.btn:hover{
+    background-color: #8782b7;
+}
+.past-searches{
+    font-family: "Alice", serif;
+    font-style: normal;
+    background-color: #e9b4e9;
+    color:black;
+
+}
+h6{
+    font-family: "Alice", serif;
+    font-style: normal;
+    font-size: medium;
+    background-color: #cfb4e9;
+    color:black;
+    display:inline;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+h6:hover{
+    background-color: #9a77bb;
+    cursor: pointer;
+}
+div{
+    margin-top: 5px;
+}
+.text-primary{
+    color:#371668 !important;
+}
